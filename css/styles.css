@@ -1,0 +1,221 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 2% 15% 6%;
+}
+
+/* Title */
+
+#title {
+  background: #ff4c68;
+}
+
+.title-content {
+  margin-top: 4%;
+}
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 2%;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  opacity: 0.85;
+  font-size: 17px;
+}
+/* Download Buttons */
+
+.download-button {
+  margin-top: 4.5%;
+  margin-right: 8%;
+}
+
+.title-img {
+  width: 285px;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+/* Features */
+
+#features{
+  position: relative;
+  /* z-index: 1; */
+  background-color: white;
+  padding: 8% 5% 3%;
+  text-align: center;
+}
+
+.features {
+
+}
+
+.feature-img {
+  padding-bottom: 20px;
+  width: 75px;
+}
+
+.feature-heading {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.feature-description {
+  font-size: 22px;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  margin: 5% 0 0;
+}
+
+.carousel-item {
+  padding: 4% 10%;
+}
+
+.testimonial-description {
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding: 2% 9%;
+  color: white;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+.testimonial-location {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Press */
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.press-img {
+  width: 13%;
+    margin: 5% 3% 6%;
+}
+
+
+/* Pricing */
+
+#pricing {
+  padding: 130px 100px 20px;
+  text-align: center;
+}
+
+.price-card {
+  padding: 3.5%;
+}
+
+.card-holder {
+  padding: 4% 2%;
+}
+
+.price-heading {
+  font-size: 3.7rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.price-description {
+  font-size: 1.2rem;
+  font-weight: bold;
+  opacity: 0.75;
+}
+
+.card-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card-body-head {
+  font-size: 3.5rem;
+  padding: 3% 0 5%;
+  font-weight: bolder;
+}
+
+.card-body-desc {
+  font-size: 1.2rem;
+  padding: 0;
+  opacity: 0.95;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  margin: 5% 0 0;
+  padding-bottom: 4%;
+}
+
+.cta-heading {
+  font-size: 4.2rem;
+  font-weight: bold;
+  padding: 4% 13% 0;
+  color: white;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+}
+
+.footer-txt {
+  margin-bottom: 3%;
+}
+
+.footer-icons {
+  padding:5% 4% 2.5%;
+}
+
+
+@media  (max-width: 1028px) {
+  body {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    display: block;
+    margin: 10%;
+  }
+}
